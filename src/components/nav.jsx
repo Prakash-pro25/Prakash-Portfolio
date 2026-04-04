@@ -31,7 +31,7 @@ export default function Navbar(){
              <div className="flex  gap-5 justify-center items-center ">
             {/* <h1 className="text-3xl">|</h1> */}
             <hr className="h-8 w-0.5 bg-blue-700 border-blue-600"/>
-            <button className="bg-pink-500 flex font-bold rounded-3xl p-2 justify-center items-center gap-2"><span>download <sup className="text-[10px]">(resume)</sup></span><BiDownload size={20}/></button>
+            <button className="bg-linear-to-r from-pink-500 to-violet-500 flex font-bold rounded-3xl p-2 justify-center items-center gap-2"><span>download <sup className="text-[10px]">(resume)</sup></span><BiDownload size={20}/></button>
              </div>
 
         </nav>

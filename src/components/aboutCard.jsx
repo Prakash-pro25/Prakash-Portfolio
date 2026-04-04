@@ -67,7 +67,7 @@ export default function UltraCard() {
            <h2 className="text-3xl font-mono flex gap-1"><h2>and I'm a</h2><Letter4 name={domain} className="text-blue-700"/></h2>
            <br />
             <p>
-                I’m a passionate and dedicated Developer, ready to contribute to building impactful and scalable solutions. <span className="text-pink-700">"With a strong focus on clean code, modern design, and user experience."</span> I’m eager to learn, adapt, and grow within a professional environment while bringing innovative ideas and consistent performance to your team.
+                I’m a passionate and dedicated Developer, ready to contribute to building impactful and scalable solutions. <span className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">"With a strong focus on clean code, modern design, and user experience."</span> I’m eager to learn, adapt, and grow within a professional environment while bringing innovative ideas and consistent performance to your team.
             </p>
             <div className="text-4xl flex  gap-3 text-black mt-5 ">
                 <FaLinkedin className="cursor-pointer hover:-translate-y-2 transition duration-300" />
