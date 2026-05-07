@@ -5,6 +5,10 @@ import FloatingLines from './utils/FloatingLines';
 /* import FloatingLines from './utils/FloatingLines'; */
 import { motion } from 'framer-motion';
 import InfoCard from './components/infoCard';
+import SkillsCard from './components/SkillsCard';
+import ProjectsCard from './components/ProjectCard';
+import Contact from './components/Contact';
+
 
 function App() {
   
@@ -27,7 +31,8 @@ function App() {
 
 </div>
 
-  <div className="absolute z-10 top-0 left-0 h-screen w-screen scroll-smooth  px-5  overflow-auto">
+  <div className="absolute z-10 top-0 left-0 h-screen w-screen scroll-smooth   overflow-auto scrollbar-hide">
+    <div className='w-full px-5 relative top-0 right-0'>
     <Navbar />
     <AboutCard/>
     <div className='w-full flex justify-center my-20 '>
@@ -48,6 +53,12 @@ function App() {
       </div>
     </div> 
     <InfoCard/>
+    <SkillsCard/>
+   <ProjectsCard/>
+   </div>
+   
+   <Contact/>
+  
     
   </div>
 

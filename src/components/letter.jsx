@@ -9,7 +9,7 @@ export default function Letter4({ className }) {
     "Node.js Backend Developer",
     "Mobile App Developer(reactNative)",
     "UI/UX Designer",
-    "saftware tester",
+    "software tester",
 
   ];
 

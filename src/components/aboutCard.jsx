@@ -1,8 +1,7 @@
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
-import { ImOpt } from "react-icons/im";
-import { MdEmail } from "react-icons/md";
+import { SiGmail } from "react-icons/si";
 import  Letter4  from "./letter";
 
 export default function UltraCard() {
@@ -72,7 +71,8 @@ export default function UltraCard() {
             <div className="text-4xl flex  gap-3 text-black mt-5 ">
                 <FaLinkedin className="cursor-pointer hover:-translate-y-2 transition duration-300" />
                 <FaSquareGithub className="cursor-pointer hover:-translate-y-2 transition duration-300"/>
-                < MdEmail className="cursor-pointer hover:-translate-y-2 transition duration-300"/>
+                < SiGmail className="cursor-pointer hover:-translate-y-2 transition duration-300"/>
+               
                 </div>
           </div>
 
